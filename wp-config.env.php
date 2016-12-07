@@ -33,7 +33,7 @@ switch ($hostname) {
         define('WP_ENV', 'staging');
         break;
 
-    case 'www.consentus.mediahelpcrm.se':
+    case 'www.widgrens.mediahelpcrm.se':
       define('WP_ENV', 'staging');
       break;
     case 'www.domain.com':
