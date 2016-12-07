@@ -1,0 +1,629 @@
+/*responsive css*/
+/*min-width*/
+@media (min-width: 431px) {
+	
+}
+@media (min-width: 601px) {
+	
+}
+@media (min-width: 768px) {	
+	
+}
+
+@media (min-width: 992px) {	
+    .hidden-des{
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {	
+    .aboutDeatails{
+        padding-left: 36px;
+    }
+    .blog-list{
+        padding-right: 35px;
+    }
+    .aboutDeatails p{
+        line-height: 26px;
+    }
+}
+
+/*max-width*/
+@media (max-width: 1199px) {	
+    .footerB, .footerC, .footerD, .footerE{
+        margin-left: 20px;
+    }
+    .banner .owl-dots{
+        bottom: 5%;
+    }
+    .listingSec{
+        padding: 30px;
+    }
+    .listCol + .listCol{
+        margin-left: 44px;
+    }
+    .tjanster-content .aboutSec{
+        padding: 30px 0;
+    }
+    .kontakt-col1, .kontakt-col2{
+        width: 48%;
+    }
+    .kontakt-col2{
+        margin-left: 37px;
+    }
+    .personalBtn .btn{
+        min-width: 118px;
+    }
+    .personalPara{
+        min-height: 221px;
+    }
+    .personalDetails{
+        padding: 10px;
+    }
+    .personalBtn .btn {
+      min-width: 96px;
+    }
+    .modal-dialog{
+        margin-top: 100px;
+    }
+    .modal-dialogC .modal-content::after, .modal-dialogC .modal-content::before{
+        left: 37%;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-toggle{
+        margin-right: 5px;
+    }
+    .navbar-toggle .icon-bar{
+        background: #00afeb;
+         margin-left: auto;
+        transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+    }
+    .navbar-toggle span:nth-child(2) {
+        width: 30px;
+   }
+    .navbar-toggle span:nth-child(4) {
+        width: 30px;
+   }
+    .navbar-toggle:hover .icon-bar {
+       width: 30px;
+   }
+    .nav > li{
+        text-align: center;
+    }
+    .nav > li > a{
+        padding: 5px 0;
+    }
+    .bannerCaption{
+        top: 40%;
+    }
+    .bannerCaption h1{
+        font-size: 42px;
+    }
+    .aboutPic{
+        width: auto;
+    }
+    .aboutDeatails h2{
+        margin-bottom: 10px;
+    }
+    .blog-bigPic{
+        height: 144px;
+    }
+    .footerA{
+        width: 28%;
+        max-width: 100%;
+    }
+    .footerB{
+        max-width: 130px;
+    }
+    .footerC{
+        max-width: 150px;
+    }
+    .footerE{
+        float: inherit;
+        max-width:300px;
+        clear:both;
+        margin-left: 0;
+        padding-top: 10px;
+    }
+    .footerE p br{
+        display: none;
+    }
+    .socialList {
+        position: absolute;
+        right: 80px;
+        top: 17px;
+        border-left: 1px solid transparent;
+        padding-left: 0;
+   }
+    .mobH{
+        display: none;
+    }
+    .listCol{
+        width: 48%;
+        min-height: 441px;
+   }
+    .listCol + .listCol {
+      margin-left: 20px;
+   }
+    .listCol:last-child{
+        margin-left: 0;
+        margin-top: 20px;
+        min-height: auto;
+    }
+    .om-content .aboutSec{
+        padding: 30px 0;
+    }
+    .proDetails {
+      padding: 15px 15px 15px 350px;
+   }
+    .proDetails a{
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+    .proDetails p{
+        margin-bottom: 10px;
+    }
+    .proDetails h5{
+        margin-bottom: 10px;
+    }
+    .kontakt-col1, .kontakt-col2 {
+      width: 47%;
+    }
+    .kontakt-content {
+      padding: 30px 0;
+    }
+    .proDetails a{
+        font-size: 26px;
+    }
+    .personalPara{
+         min-height: 242px;
+    }
+    .personalDetails h5{
+        min-height: 36px;
+        margin-bottom: 0;
+    }
+    .personal-content {
+      padding: 30px 0;
+    }
+    .pagination {
+       margin: 0;
+    }
+    .modalC .modal-body {
+       padding: 20px;
+   }
+    .account-details h4{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+}
+
+@media  (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media (max-width: 767px) {
+    header {
+      padding: 15px 0;
+    }
+    .socialList li + li{
+        padding-left: 10px;
+    }
+    .bannerCaption{
+        position: static;
+        top: inherit;
+        background: #f5f5f5;
+        max-width: 100%;
+        padding: 10px;
+    }
+    .bannerCaption h1, h1{
+        margin-top: 0;
+        color: #373636;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .bannerCaption p, .innerbannerCaption p{
+        color: #373636;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .banner .owl-dots{
+        bottom: 37%;
+        left: 50%;
+    }
+    .bannerCaption .btn-outline{
+        color: #373636;
+        border: 1px solid #373636;
+    }
+    .bannerCaption .btn-outline:hover{
+        background: #373636;
+        color: #fff;
+    }
+    .banner .item::after{
+        display: none;
+    }
+    .aboutSec{
+        min-height: 100%;
+        padding: 15px 0;
+    }
+    .aboutPicS{
+        position: inherit;
+        margin: -40px auto 10px;
+    }
+    .aboutDeatails h2{
+        font-size: 20px;
+    }
+    .aboutDeatails p{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .aboutDeatails .btn-outline{
+        padding: 6px 12px;
+    }
+    .secForm{
+        padding: 15px 10px;
+    }
+    .innerForm-sec{
+        margin: 0 10px;
+    }
+    .secForm-para h2{
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .secForm-para p{
+        margin-bottom: 10px;
+    }
+    .innerForm-sec .col-sm-4 + .col-sm-4{
+        margin-top: 10px;
+    }
+    .innerForm-secAb h4{
+        font-size: 17px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .form-secA-cus .btn{
+        margin-top: 15px;
+    }
+    .form-secA-cus{
+        min-height: 100%;
+        padding: 10px;
+    }
+    .form-secA-cus p{
+        margin-bottom: 10px;
+    }
+    .secBlog{
+        padding: 15px 0;
+    }
+    .secBlog h2{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .blog-bigPic{
+        text-align: center;
+    }
+    .blog-sec p{
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .blog-det a{
+        font-size: 15px;
+    }
+    .blog-det p{
+        font-size: 13px;
+    }
+    .footer-top{
+        padding: 20px 0;
+    }
+    .footer-bottom{
+        padding: 10px 0;
+    }
+    .footerA{
+        float: inherit;
+        width: 100%;
+        text-align: center;
+    }
+    .footerB, .footerC, .footerD{
+        margin-top: 10px;
+    }
+    .footerLogo {
+      margin-bottom: 10px;
+    }
+    .footerB{
+        margin-left: 0;
+    }
+    .footerE{
+        padding-top: 0;
+    }
+    .innerForm-secPic{
+        padding-top: 10px;
+    }
+    .aboutPicS{
+        height: 200px;
+        width: 200px;
+    }
+    .innerbannerCaption{
+        position: static;
+        background: #f5f5f5;
+        max-width: 100%;
+        padding: 10px;
+    }
+    .innerbannerCaption p{
+        margin-bottom: 0;
+    }
+    .tjanster-content .aboutSec{
+        padding: 15px 0;
+    }
+    .inner-aboutSec .aboutDeatails h2{
+        margin-bottom: 10px;
+    }
+    .inner-aboutSec .aboutDeatails p{
+        margin-bottom: 10px;
+    }
+    .inner-aboutSec .aboutDeatails h5{
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    .listingSec{
+        padding: 15px;
+    }
+    .listCol{
+        min-height: 403px;
+    }
+    .listHeading h4{
+        font-size: 16px;
+        padding: 10px;
+    }
+    .listBody{
+        padding: 10px;
+    }
+    .nav > li > a::after{
+        left: 20px;
+        right: 1px;
+    }
+    .tjanster-content{
+        margin-bottom: 15px;
+    }
+    .listBody li a, .listBody li span{
+        font-size: 13px;
+    }
+    .listBody li + li{
+        margin-top: 10px;
+    }
+    .om-content .aboutSec {
+       padding: 15px 0;
+    }
+    .om-content .aboutDeatails p{
+        margin-bottom: 10px;
+    }
+    .om-content .omAbout-first + .omAbout-first {
+      padding-top: 20px;
+   }
+    .ref-content{
+        padding: 15px 0;
+    }
+    .profileImg{
+        float: inherit;
+        width: 100%;
+        text-align: center;
+    }
+    .proDetails{
+        padding: 10px;
+        text-align: center;
+    }
+    .proDetails a{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .proDetails p{
+        font-size: 14px;
+    }
+    .proDetails h5{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .proName, .designation{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .refSec + .refSec {
+      margin-top: 15px;
+    }
+    .kontakt-col1, .kontakt-col2{
+        width: 100%;
+    }
+    .kontakt-col2{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .kontakt-content {
+       padding: 15px 0;
+    }
+    .kontaktDetails h3{
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .kontaktDetails p{
+        font-size: 13px;
+    }
+    .kontaktDetails + .kontaktDetails {
+       padding-top: 10px;
+     }
+    .kontaktList li a{
+        font-size: 14px;
+    }
+    .kontaktList li a span {
+       padding-left: 10px;
+    }
+    .kontaktList li:last-child a span {
+       padding-left: 17px;
+    }
+    .kontakt-col2 .inputWrap .form-control{
+    height: 38px;
+    }
+    .kontakt-col2 .inputWrap textarea.form-control {
+        height: 68px;
+        padding:10px 20px;
+    }
+    .kontakt-col2 .btn-outline{
+        margin-top: 10px;
+    }
+    .kontakt-col2 .btn-outline{
+        min-width: 120px;
+        font-size: 14px;
+    }
+    .personal-content {
+       padding: 15px 0;
+    }
+    .personal-col{
+        background-color: #f5f5f5;
+        margin-bottom: 10px;
+    }
+    .personalImg, .personalDetails{
+        text-align: center;
+    }
+    .personalDetails h4{
+        font-size: 18px;
+    }
+    .personalDetails h5{
+        font-size: 14px;
+        min-height: 100%;
+    }
+    .personalPara{
+        min-height: 100%;
+    }
+    .personalPara p + p{
+        padding-top: 0;
+    }
+    .personalBtn{
+        padding-top: 0;
+    }
+    .pagination > li > a, .pagination > li > span {
+        font-size: 12px;
+        padding: 3px 10px;
+    }
+    .pagination li + li {
+       margin-left: 5px;
+    }
+    .personalBtn .btn{
+        padding: 5px 12px;
+    }
+    .account-details {
+      padding-left: 65px;
+    }
+    .modal-col{
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
+    .modal-col-list + .modal-col-list {
+       margin-top: 20px;
+   }
+}
+@media (max-width: 580px) {
+    .navbar-brand > img{
+        height: 40px;
+        margin-top: 10px;
+    }
+    .banner .owl-dots{
+        bottom: 48%;
+    }
+    .bannerCaption .btn-outline{
+        padding: 6px 12px;
+    }
+    .footerB{
+        max-width: 100%;
+        width: 50%;
+    }
+    .footerC {
+        margin-left: 0;
+        max-width: 100%;
+        width: 50%;
+   }
+    .footerD{
+        float: inherit;
+        margin: 0 auto;
+    }
+    .footer-list, .copy{
+        float: inherit;
+        text-align: center;
+    }
+    .navbar-brand > img{
+        height: 34px;
+    }
+    .socialList{
+        right: 65px;
+    }
+    header{
+        padding: 5px 0;
+    }
+    .aboutPic{
+        height: auto;
+    }
+    .footerE{
+        margin-top: 15px;
+    }
+    .listCol{
+        width: 100%;
+        min-height: 100%;
+        float: inherit;
+    }
+    .listCol + .listCol{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .modal-col{
+        float: inherit;
+        width: 100%;
+    }
+    .modal-col:last-child{
+        padding-left: 0;
+    }
+    .modal-col::before, .modal-col::after{
+        display: none;
+    }
+    .modal-col-list + .modal-col-list{
+        margin-top: 0;
+    }
+    .modal-col-list:last-child .modal-col{
+        padding-bottom: 10px;
+    }
+    .modalC .modal-body {
+       padding: 15px;
+    }
+    .account-icon{
+        height: 45px;
+        width: 45px;
+        line-height: 40px;
+    }
+    .account-icon > img {
+       height: 23px;
+    }
+    .account-details {
+       padding-left: 55px;
+   }
+}
+
+@media (max-width: 500px) {
+	
+	
+}
+@media (max-width: 420px) {
+    .banner .owl-dots{
+        bottom: 50%;
+    }
+    .blog-pic{
+        float: inherit;
+        margin-bottom: 10px;
+    }
+    .blog-det{
+        padding-left: 0;
+    }
+	
+}
+@media (max-width: 400px) {
+	
+}

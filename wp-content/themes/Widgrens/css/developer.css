@@ -1,0 +1,136 @@
+/*css*/
+/*
+	li.current-menu-item a {
+    background-color: transparent;
+    color: #00abe5;
+}
+*/
+
+/*
+.nav > li.current-menu-item > a:after{
+	background: rgba(0, 0, 0, 0) url("../images/nav-after.png") repeat scroll 0 0;
+    content: "";
+    display: none;
+    height: 3px;
+    left: 10px;
+    position: absolute;
+  
+    right: 10px;
+    top: 100%;
+}
+*/
+div.wpcf7-mail-sent-ok {
+    border: 0px;
+}
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: 0;
+}
+.kontakt-col2 .btn-outline {
+    background: transparent;
+}
+div.wpcf7-validation-errors{
+	border: 0px !important;
+	color: red;
+}
+div.wpcf7-mail-sent-ok {
+    border: 0px !important;
+    color: #398f14;
+    font-weight: 700;
+}
+.form-secA-cus{
+	padding: 26px 18px 4px;
+
+}
+h1.not-found-page {
+    text-align: center;
+    width: 900px;
+}
+.item_post {
+    text-align: center;
+}
+.inner_post h2 {
+    text-align: center;
+}
+.inner_post p {
+    text-align: center;
+}
+.inner_post h2 {
+    color: #000;
+    font-size: 45px;
+    margin-top: 0;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+}
+.inner_post h2:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    content: "";
+    background: url(../images/design.jpg)no-repeat;
+    height: 10px;
+    min-width: 49px;
+    transform: translatex(-50%);
+   }
+.footer-list li a {
+    color: #9a9a9a !important;
+    }
+ .footer-list .nav > li > a   {
+ 	text-transform : none;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 0px !important;
+ }
+ .footer-list .navbar-right {
+    margin-right: 0px;
+}
+.footer-list .navbar-right {
+    padding-right: 0;
+}
+.footer-list .nav > li > a:after{
+	display : none;
+}
+.footer-bottom {
+    padding-bottom: 30px;
+}
+.blog-detC{
+	padding-left:40px;
+}
+.blog-detC p + P {
+   margin-top: 15px;
+}
+.author {
+   margin-top: 30px;
+   display: block;
+   font-weight: 500;
+}
+.blogLatest .blog-bigPic {
+    height: auto;
+    overflow: hidden;
+    margin-left: 82px;
+}
+/*CSS Media Queries*/
+@media (max-width: 1199px) {
+
+}
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+@media (max-width: 600px) {
+	body {font-size: 13px;}
+}
+
+@media (max-width: 500px) {
+
+
+}
+@media (max-width: 400px) {
+
+}
+/* End */
