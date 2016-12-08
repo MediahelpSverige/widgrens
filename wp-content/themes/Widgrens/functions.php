@@ -494,10 +494,13 @@ function your_custom_menu_item ( $items, $menu, $args ) {
 																		 <div class="clearfix">
 <?php
 																			$i=1;
-																			query_posts('post_parent=8&order=ASC&post_type=page');
-																if(have_posts()):
-																							while ( have_posts() ) : the_post();
+																			$myquery = new WP_Query( array('post_parent' => 8, 'order' => 'ASC', 'post_type' => 'page'));
+																if($myquery->have_posts()):
+																							while ($myquery->have_posts() ) : $myquery->the_post();
+																							$post = $myquery->post;
+																				if($post->ID != 249 && $post->ID != 246){
 																				if($i==1 || $i==3){
+
 																					 ?> <div class="modal-col-list clearfix"><?php  } ?>
 																							<div class="modal-col">
 																								<div class="clearfix">
@@ -511,7 +514,9 @@ function your_custom_menu_item ( $items, $menu, $args ) {
 																								 </div>
 																								</div>
 																							 </div>
-																				<?php if($i==2 || $i==4){ ?> </div> <?php } ?>
+																				<?php if($i==2 || $i==4){ ?> </div> <?php } }else{
+																					the_field('menu_content');
+																				}?>
 																				 <?php $i++ ; endwhile; endif; ?>
 
 																				 </div>

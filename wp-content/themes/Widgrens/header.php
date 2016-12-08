@@ -36,6 +36,7 @@
     <link href="<?php bloginfo('template_url'); ?>/css/responsive.css" rel="stylesheet">
     <!-- developer use only -->
     <link href="<?php bloginfo('template_url'); ?>/css/developer.css" rel="stylesheet">
+		<link href="<?php bloginfo('template_url'); ?>/css/base.css" rel="stylesheet">
 
 	<!-- jquery.js -->
 	<script src="<?php bloginfo('template_url'); ?>/js/plugins/jquery-1.12.3.min.js"></script>
@@ -105,7 +106,7 @@
                             </ul>
                         </div>
                     </div>
-										
+
                   <!-- <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#">START</a></li>
                     <li><a href="#">TJÄNSTER</a></li>

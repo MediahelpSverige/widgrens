@@ -1,0 +1,50 @@
+@import "variables";
+@media (max-height:600px){
+  body{
+    header.fixed{
+      height: 80px;
+      padding: 10px 0px;
+      .navbar-brand{
+        img{
+          max-height: 48px;
+          width: auto;
+        }
+      }
+    }
+    .banner{
+      margin-top: 80px;
+      height: 65vh;
+      overflow: hidden;
+      .owl-item{
+        height: 65vh;
+        .item{
+          height:65vh;
+          .bannerCaption{
+            top: 20%;
+          }
+        }
+      }
+      .owl-dots{
+            bottom: 40px;
+      }
+    }
+    .inner-banner{
+      height: 65vh;
+      overflow: hidden;
+      .item{
+        height: 65vh;
+        /*
+        &:hover{
+          .innerbannerCaption{
+            opacity: 0.3;
+          }
+
+        }
+        .innerbannerCaption{
+          transition: 1s ease all;
+        }
+        */
+      }
+    }
+  }
+}

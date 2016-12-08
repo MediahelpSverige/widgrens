@@ -1,0 +1,35 @@
+@media (max-height: 600px) {
+  body header.fixed {
+    height: 80px;
+    padding: 10px 0px; }
+    body header.fixed .navbar-brand img {
+      max-height: 48px;
+      width: auto; }
+  body .banner {
+    margin-top: 80px;
+    height: 65vh;
+    overflow: hidden; }
+    body .banner .owl-item {
+      height: 65vh; }
+      body .banner .owl-item .item {
+        height: 65vh; }
+        body .banner .owl-item .item .bannerCaption {
+          top: 20%; }
+    body .banner .owl-dots {
+      bottom: 40px; }
+  body .inner-banner {
+    height: 65vh;
+    overflow: hidden; }
+    body .inner-banner .item {
+      height: 65vh;
+      /*
+        &:hover{
+          .innerbannerCaption{
+            opacity: 0.3;
+          }
+
+        }
+        .innerbannerCaption{
+          transition: 1s ease all;
+        }
+        */ } }
