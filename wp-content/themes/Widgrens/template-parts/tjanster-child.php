@@ -8,10 +8,10 @@
  */
 
 get_header(); ?>
-<?php $id= get_the_ID(); ?>
-<?php $query = new WP_Query('page_id='.$id); ?>
-        <?php if($query->have_posts()): ?>
-        <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+<?php //$id= get_the_ID(); ?>
+<?php // $query = new WP_Query('page_id='.$id); ?>
+        <?php if(have_posts()): ?>
+        <?php while ( have_posts() ) : the_post(); ?>
 <div class="container">
         <section class="inner-banner">
             <div class="item">
